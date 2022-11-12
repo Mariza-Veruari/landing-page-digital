@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav a {
+    color: #a3a3a3;
+}
+
+.nav a:hover {
+    color: #000;
+}
+
+.container{
+    display: flex; 
+    flex-wrap:wrap;
+    top: 61px;
+     left: 30px;
+width: 920px;
+height: 1019px;
+}
+.web, .digital,.site{
+    flex: 1 1 150px;
+}
+
+
+.main-content {
+   
+    display: block;
+   max-width: 80%;
+   position: relative;
+    padding: 60px;
+    height: 80vh;
+    margin:0 auto;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    left: 0px;
+    width: 709px;
+    height: 85px;
+    text-align: left;
+letter-spacing: -1.86px;
+color: #000000;
+top: 70px;
+}
+
+.header {
+    background-color:white;
+    padding: 15px;
+    text-align: center;
+}
+.nav_menu a {
+    float: left;
+    display: block;
+    color: rgb(207, 204, 204);
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav_menu a:hover {
+    background-color: white;
+    color: rgb(128, 98, 0);
+}
+nav .fa-bars{
+    display: block;
+    font-size: 2 rem;
+    cursor: pointer;
+    color: #fff;
+}
+ul{
+    display: flex;
+
+}
+
+li{
+    list-style: none;
+    margin-right: 2rem;
+    text-align: left;
+letter-spacing: 0px;
+color: #939393;
+opacity: 1;
+
+
+}
+
+hr{
+    float: right;
+    height: 100%;
+
+
+}
+
+
+.caption .button {
+    padding: 9px 25px;
+    min-width: 140px;
+    border-radius: 30px;
+    border: 1px solid #FF9700;
+    background-color: #FF9700;
+    font-family: "Assistant", sans-serif;
+    font-style: Assistant-SemiBold;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s linear;
+  }
+ .caption .button:hover {
+    background-color: transparent;
+    color: #333;
+   
+}
+
+
+ .caption .button:hover {
+    background: #FF9700;
+    color: #000;
+
+}
+
+
+
+
+.vl {
+    border-left: 2px solid rgb(189, 194, 189);
+    height: 100%;
+    float: left;
+    border-radius: 2px; 
+    position:left;
+    top:3;
+    left:70%;
+    bottom:0; margin:0 auto;
+    margin-left: 20px;
+    }
+
+
+
+
+
+      
+      image { 
+        width: 100%;
+      }
+      
+      .slider {
+        position: relative;
+        width: 900px;
+        margin: auto;
+        height: 600px;
+        overflow: hidden;
+      }
+      
+      .slide {
+        position: absolute;
+        z-index: 0;
+        left: 0;
+        top: 0;
+      }
+      
+      .active {
+        transform: translateX(0%) translateZ(0);
+        transition: 0.5s all cubic-bezier(0.4, 0.0, 0.2, 1);
+        z-index: 100;
+      }
+      
+      .prev {
+        transform: translateX(-100%) translateZ(0);
+        transition: 0.5s all cubic-bezier(0.4, 0.0, 0.2, 1);
+        z-index: 90;
+      }
+      
+      .next {
+        transform: translateX(100%) translateZ(0);
+        transition: 0.5s all cubic-bezier(0.4, 0.0, 0.2, 1);
+        z-index: 90;
+      }
+      
+      .controls {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 110;
+        left: 0;
+        padding: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        font-size: 32px;
+        color: rgb(255,255,255);
+      }
+      .slider {
+        position: relative;
+        width: 900px;
+        margin: auto;
+        height: 600px;
+        overflow: hidden;
+      }
+      
+      .slide {
+        position: absolute;
+        z-index: 0;
+        left: 0;
+        top: 0;
+      }
+      
+      .active {
+        transform: translateX(0%) translateZ(0);
+        transition: 0.5s all cubic-bezier(0.4, 0.0, 0.2, 1);
+        z-index: 100;
+      }
+      
+      .prev {
+        transform: translateX(-100%) translateZ(0);
+        transition: 0.5s all cubic-bezier(0.4, 0.0, 0.2, 1);
+        z-index: 90;
+      }
+      
+      .next {
+        transform: translateX(100%) translateZ(0);
+        transition: 0.5s all cubic-bezier(0.4, 0.0, 0.2, 1);
+        z-index: 90;
+      }
+      
+      .controls {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 110;
+        left: 0;
+        padding: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        font-size: 32px;
+        color: rgb(255,255,255);
+      }
+      @media screen and (max-width:920px) {
+        .web, .digital, .site {
+            width: 50%;
+        }
+    }
+    @media screen and (max-width:920px) {
+        .web, .digital, .site {
+            width: 100%;
+        }
+    } 
+
+   
